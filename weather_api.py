@@ -9,7 +9,7 @@ def view():
     city = loc_entry.get()
 
     # Make an API request to OpenWeatherMap
-    api_key = '2139715b6a745bde80c2658c7904799e'
+    api_key = 'Use your api key'
     base_url = 'https://api.openweathermap.org/data/2.5/weather'
     params = {
         'q': city,
